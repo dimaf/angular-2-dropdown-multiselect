@@ -36,7 +36,7 @@ export interface IMultiSelectOption {
 export interface IMultiSelectSettings {
   pullRight?: boolean;
   enableSearch?: boolean;
-  checkedStyle?: 'checkboxes' | 'glyphicon' | 'fontawsome';
+  checkedStyle?: 'checkboxes' | 'glyphicon' | 'fontawsome'|'material';
   buttonClasses?: string;
   selectionLimit?: number;
   closeOnSelect?: boolean;
